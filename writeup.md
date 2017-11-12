@@ -45,8 +45,8 @@ The Kuka210 Forward kinematics simulator was launched using
 Getting acquainted with the forward kinematics using this simulator went a long way in getting a 'feel' for the manipulator kinematics. This general understanding of how the arm responds to joint actuation was very helpful later in debugging.  
 
 In the following image, the manipulator is shown actuated using an arbitrary set of joint parameters. 
-![alt text][image6=100x]
-<img src=image6 alt="Drawing" style="width: 200px;"/>
+![alt text]([image6]=100x)
+<img src=[image6] alt="Drawing" style="width: 200px;"/>
 Another example is shown below. 
 ![alt text][image7]
 
