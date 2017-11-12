@@ -38,12 +38,16 @@ You're reading it!
 ### Kinematic Analysis
 #### 1. Run the forward_kinematics demo and evaluate the kr210.urdf.xacro file to perform kinematic analysis of Kuka KR210 robot and derive its DH parameters.
 
-Forward kinematics demo was run using 
+The Kuka210 Forward kinematics simulator was launched using 
 
 `$ roslaunch kuka_arm forward_kinematics.launch`
 
-Playing with forward kinematics went a long way in getting a 'feel' for the manipulator kinematics. This general understanding of how the arm responds to joint actuation was very helpful later in debugging.  
-![alt text][image6  | width=100]
+Getting acquainted with the forward kinematics using this simulator went a long way in getting a 'feel' for the manipulator kinematics. This general understanding of how the arm responds to joint actuation was very helpful later in debugging.  
+
+In the following image, the manipulator is shown actuated using an arbitrary set of joint parameters. 
+![alt text](image6|width=100)
+
+Another example is shown below. 
 ![alt text][image7]
 
 The numerical specification of the manipulator geometry necessary to derive the relevant DH parameters was obtained by parsing the `kr210.urdf.xacro` file. The image below shows a snapshot of one of the relevant sections of the file.    
