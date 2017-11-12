@@ -17,17 +17,13 @@ KUKA KR210: RRRRRR Serial Manipulator
 
 [//]: # (Image References)
 
-[image1]: ./misc_images/misc1.png
-[image2]: ./misc_images/misc3.png
-[image3]: ./misc_images/misc2.png
-
-[image4]: ./misc_images/Classic-DHparameters.png
-[image5]: ./misc_images/kr210urdfxacro.png
-[image6]: ./misc_images/forward_kinematics_2.png
-[image7]: ./misc_images/forward_kinematics_1.png
+[image4]: ./misc_images/Classic-DHparameters.PNG
+[image5]: ./misc_images/kr210urdfxacro.PNG
+[image6]: ./misc_images/forward_kinematics_2.PNG
+[image7]: ./misc_images/forward_kinematics_1.PNG
 [image8]: ./misc_images/derivation_1.jpg
 [image9]: ./misc_images/derivation_2.jpg
-[image10]: ./misc_images/pick_show.png
+[image10]: ./misc_images/pick_show.PNG
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/972/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
