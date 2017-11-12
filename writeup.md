@@ -90,7 +90,7 @@ Links | alpha(i-1) | a(i-1) | d(i-1) | theta(i)
 
 #### 2. Using the DH parameter table you derived earlier, create individual transformation matrices about each joint. In addition, also generate a generalized homogeneous transform between base_link and gripper_link using only end-effector(gripper) pose.
 
-The derivation of the transformation matrices was done interactively using a Jupyter Notebook. The notebook, [./Kuka210_Inverse_Kinematics_Analysis.ipynb] is also uploaded for reference. 
+The derivation of the transformation matrices was done interactively using a Jupyter Notebook. The notebook, `./Kuka210_Inverse_Kinematics_Analysis.ipynb` is also uploaded for reference. 
 
 The way DH parameters are defined here, the transformation matrix could be obtained as follows: 
 
@@ -145,7 +145,6 @@ The code snippets below show how this symbolic manipulation was performed. More 
 ```
 
 Similarly, transformations `T1_2`, `T2_3`, `T3_4`, `T4_5`, `T5_6`, and `T6_G` are assigned. These are not produced here for brevity. Please refer to the Jupyter Notebook for more details as necessary. 
-
 
 A corrective transformation between the DH parameter convention and Gazebo convention is obtained. This takes care of the reference frame used in the `URDF` file and the reference frame defined for our DH parameter definition.
 
