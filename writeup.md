@@ -17,7 +17,7 @@ KUKA KR210: RRRRRR Serial Manipulator
 
 [//]: # (Image References)
 
-[image4]: ./misc_images/Classic-DHparameters.PNG
+[image4]: ./misc_images/Classic-DHparameters.png
 [image5]: ./misc_images/kr210urdfxacro.PNG
 [image6]: ./misc_images/forward_kinematics_2.PNG
 [image7]: ./misc_images/forward_kinematics_1.PNG
@@ -43,7 +43,7 @@ Forward kinematics demo was run using
 `$ roslaunch kuka_arm forward_kinematics.launch`
 
 Playing with forward kinematics went a long way in getting a 'feel' for the manipulator kinematics. This general understanding of how the arm responds to joint actuation was very helpful later in debugging.  
-![alt text][image6]
+![alt text][image6  | width=100]
 ![alt text][image7]
 
 The numerical specification of the manipulator geometry necessary to derive the relevant DH parameters was obtained by parsing the `kr210.urdf.xacro` file. The image below shows a snapshot of one of the relevant sections of the file.    
