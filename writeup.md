@@ -46,7 +46,7 @@ Getting acquainted with the forward kinematics using this simulator went a long 
 
 In the following image, the manipulator is shown actuated using an arbitrary set of joint parameters. 
 ![alt text][image6=100x]
-
+<img src=image6 alt="Drawing" style="width: 200px;"/>
 Another example is shown below. 
 ![alt text][image7]
 
