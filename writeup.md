@@ -45,16 +45,15 @@ The Kuka210 Forward kinematics simulator was launched using
 Getting acquainted with the forward kinematics using this simulator went a long way in getting a 'feel' for the manipulator kinematics. This general understanding of how the arm responds to joint actuation was very helpful later in debugging.  
 
 In the following image, the manipulator is shown actuated using an arbitrary set of joint parameters. 
-![alt text]([image6]=100x)
-<img src=[image6] alt="Drawing" style="width: 200px;"/>
+![alt text][image6]
 Another example is shown below. 
 ![alt text][image7]
 
-The numerical specification of the manipulator geometry necessary to derive the relevant DH parameters was obtained by parsing the `kr210.urdf.xacro` file. The image below shows a snapshot of one of the relevant sections of the file.    
+The geometrical specifications of the manipulator necessary to derive the relevant DH parameters were obtained by parsing the `kr210.urdf.xacro` file. The image below shows a snapshot of one of the relevant sections of the file.    
 
 ![alt text][image5]
 
-With the help of these parameters, and the a hand sketch showing all the joints in the unactuated pose (all joint angles equal to zero, the DH parameter table was obtained.
+With the help of these parameters, and a hand sketch showing all the joints in the unactuated pose (all joint angles equal to zero, the DH parameter table was obtained.
 
 ![alt text][image8]
 
@@ -91,7 +90,7 @@ Links | alpha(i-1) | a(i-1) | d(i-1) | theta(i)
 
 #### 2. Using the DH parameter table you derived earlier, create individual transformation matrices about each joint. In addition, also generate a generalized homogeneous transform between base_link and gripper_link using only end-effector(gripper) pose.
 
-In order to keep the derivation of the transformation matrices interactive, this part of the exercise was done using a Jupyter Notebook. The notebook, `Kuka210_Inverse_Kinematics_Analysis.ipynb` is also uploaded for reference. 
+The derivation of the transformation matrices was done interactively using a Jupyter Notebook. The notebook, [./Kuka210_Inverse_Kinematics_Analysis.ipynb] is also uploaded for reference. 
 
 The way DH parameters are defined here, the transformation matrix could be obtained as follows: 
 
